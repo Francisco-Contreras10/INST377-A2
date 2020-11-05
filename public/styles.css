@@ -4,3 +4,15 @@ h1 {
     color: blue;
     padding: 12px;
 }
+
+.navContainer li{
+    border-bottom: 1px solid lightgray;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 3px;
+    
+}
+li {
+    display: list-item;
+
+}
