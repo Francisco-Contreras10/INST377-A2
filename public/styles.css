@@ -3,6 +3,7 @@ h1 {
     font-weight: bold;
     color: blue;
     padding: 12px;
+    justify-content: center;
 }
 
 .navContainer li{
