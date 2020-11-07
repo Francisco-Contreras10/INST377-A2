@@ -4,9 +4,11 @@ h1 {
     color: blue;
     padding: 12px;
     justify-content: center;
+    align-items: center;
 }
 form{
     justify-content: center;
+    align-items: center;
     background: lightcoral;
 }
 .navContainer li{
