@@ -23,14 +23,16 @@ function displayMatches() {
     const html = matchArray.map(place => {
         return `
             <li>
-                <span class="name">${place.name}</span>
-                <span class="address">${place.address}</span>
-                <span class="category">${place.category}</span>
+                <p class="nameLabel">${place.name}</p>
+                <p>Address: ${place.address_line_1}</p>
+                <p>City: ${place.city}</p>
+                <p>Category: ${place.category}</p>
+                <p>Proper Hand Washing: ${place.proper_hand_washing}</p>
             </li>
             `
     }).join('');
     suggestions.innerHTML = html;
-    console.log(matchArray);
+    
 }
 
 const searchInput = document.querySelector('.textentry');
@@ -38,4 +40,5 @@ const suggestions = document.querySelector('.suggestions');
 
 searchInput.addEventListener('change', displayMatches);
 searchInput.addEventListener('keyup', displayMatches);
+
 

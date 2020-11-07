@@ -29,11 +29,15 @@ h1 {
     background-color:rgba(255,255,255,0.5);
     color:white;
 }
+.nameLabel {
+    font-weight:bold;
+}
 
 .suggestions {
     list-style-type: none;
     padding-inline-start:0px;
 }
+
 .suggestions li {
     width: 100%;
     background-color:white;
