@@ -1,8 +1,44 @@
 h1 {
     display: block;
     font-weight: bold;
-    color: blue;
+    color: white;
     padding: 12px;
+}
+
+.wrapper {
+    width:100%;;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-justify-content:center;
+    justify-content:center;
+}
+
+.container {
+    width:960px;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-justify-content:center;
+    justify-content:center;
+}
+
+.textentry {
+    width:300px;
+    height:50px;
+    padding:15px;
+    border:none;
+    background-color:rgba(255,255,255,0.5);
+    color:white;
+}
+
+.suggestions {
+    list-style-type: none;
+    padding-inline-start:0px;
+}
+.suggestions li {
+    width: 100%;
+    background-color:white;
+    margin-bottom:15px;
+    padding:10px;
 }
 
 .navContainer li{
@@ -10,9 +46,15 @@ h1 {
     margin: 0px;
     padding: 10px;
     border-radius: 3px;
+    box-sizing: border-box;
+    width:100%;
     
 }
 li {
     display: list-item;
 
+}
+
+body {
+    background-color: #559CAD;
 }
