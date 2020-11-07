@@ -1,5 +1,5 @@
 h1 {
-    display: block;
+    display: flex;
     font-weight: bold;
     color: blue;
     padding: 12px;
@@ -8,9 +8,11 @@ h1 {
 }
 form{
     justify-content: center;
+    display: flex;
     align-items: center;
     background: lightcoral;
 }
+
 .navContainer li{
     border-bottom: 1px solid lightgray;
     margin: 0px;
